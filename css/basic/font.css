@@ -1,0 +1,21 @@
+@font-face {
+    font-family: r-bold;
+    src: url(../../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: r-li;
+    src: url(../../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: r-mid;
+    src: url(../../fonts/Roboto/Roboto-Medium.ttf);
+}
+
+
+
+@font-face {
+    font-family: rage;
+    src: url(../../fonts/rage/rage.ttf);
+}

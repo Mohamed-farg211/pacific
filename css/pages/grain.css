@@ -1,0 +1,25 @@
+/* start box7 */
+.box7 {
+    background-image: url(../../images/GRAIN/Vector.png);
+}
+
+/* end box7*/
+
+/* box8 strat */
+.box8 {
+    .card-disc-box4 {
+        text-align: center;
+
+        & p {
+            font-size: 14px;
+        }
+    }
+}
+
+/* box8 end */
+
+/* box9 start */
+.box9{
+    padding: 0px 0px;
+}
+/* box9 end */

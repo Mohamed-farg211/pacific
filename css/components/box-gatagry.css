@@ -1,0 +1,43 @@
+.box-gatagry {
+    padding: 79px 0px;
+    /* background-color: aqua; */
+
+    .card-box4 {
+        .cardImg-box4 {
+            /* border: 2px solid #EEC044; */
+            overflow: hidden;
+
+            /* & img {
+                transition: transform 0.3s linear;
+
+            }
+
+            &:hover img {
+                transform: scale(1.1);
+            } */
+        }
+
+        .cardText-box4 {
+            padding: 30px;
+            text-align: center;
+
+            & h2 {
+                font-family: r-bold;
+                font-size: 24px;
+                font-weight: bolder;
+            }
+
+            & p {
+                font-family: r-li;
+                font-size: 24px;
+            }
+        }
+    }
+
+    .card-disc-box4 {
+        padding: 20px;
+        text-align: center;
+        font-size: 26px;
+        text-transform: capitalize;
+    }
+}

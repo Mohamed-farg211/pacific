@@ -1,0 +1,16 @@
+
+/* start box6  */
+.box6 {
+    padding: 79px 0;
+
+    .card-box6 {
+        text-align: center;
+        padding: 30px;
+
+        .cardText-box6 {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* end box6  */

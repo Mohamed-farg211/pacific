@@ -1,0 +1,25 @@
+/* start header */
+.headerr {
+    .navbar {
+        .navbar-brand {
+            width: 5%;
+        }
+
+        .collapse {
+            justify-content: start;
+
+            .navbar-nav {
+                .nav-item{
+                    margin: 0px 30px;
+                    .nav-link{
+                        font-size: 24px;
+                        font-family: r-bold;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+/* start header */

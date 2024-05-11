@@ -1,0 +1,17 @@
+.btn-Text {
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: #4BAF47;
+    color: #fff;
+    font-family: r-bold;
+    transition: 0s;
+    &:hover
+        {
+        background-color: #4BAF47;
+        color: #fff;
+    }
+
+    & h4 {
+        font-size: 16px;
+    }
+}

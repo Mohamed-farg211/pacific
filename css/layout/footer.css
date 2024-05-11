@@ -1,0 +1,138 @@
+/* start footer */
+
+
+/* start top-footer */
+
+.top-footer {
+    .text-top-footer {
+        background-color: #4BAF47;
+        padding: 20px;
+
+        & h2 {
+            color: #fff;
+            font-size: 56px;
+            text-transform: capitalize;
+            font-family: r-bold;
+        }
+    }
+}
+
+/* end top-footer */
+
+/* start bottom-footer */
+
+.bottom-footer {
+    padding: 50px 0px 0px;
+
+    .r-card {
+        .center-card {
+            margin-top: 10px;
+            padding: 5px;
+
+            .soc-list {
+                .icon-span {
+                    display: inline-block;
+                    padding: 8px;
+                    font-size: 20px;
+                    transition: all 0.3s ease-out;
+
+                    &:hover {
+                        transform: scaleX(-1);
+                    }
+                }
+            }
+        }
+    }
+
+    .info-card {
+        margin-left: 10px;
+
+        .icon-span {
+            font-size: 35px;
+            color: #4BAF47;
+            margin-right: 10px;
+        }
+
+        .card-text-r-card {
+            text-align: left;
+
+            & p {
+                font-size: 12px;
+                color: #878680;
+                font-family: r-mid;
+                margin-bottom: 5px;
+            }
+
+            & h4 {
+                color: #1F1E17;
+                font-size: 18px;
+                font-family: r-bold;
+            }
+        }
+    }
+
+
+
+    .left-card {
+        .text-left-card {
+            font-size: 40px;
+            font-family: r-bold;
+            margin-bottom: 30px;
+        }
+
+        .info-left-card {
+            position: relative;
+
+            & input {
+                outline: none;
+                border-bottom: 3px solid #1F1E17;
+            }
+
+            .btn-info {
+                background-color: #4BAF47;
+                /* color: #fff; */
+                font-size: 20px;
+                font-family: r-bold;
+                border-radius: 30px;
+                border: 0;
+                padding: 10px 40px;
+                color: rgb(29 28 28 / 8%);
+                text-shadow: 0 0 0 #fff, 500px 0 0 #fff;
+                overflow: hidden;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    text-shadow: -600px 0 0 #fff, 0 0 0 #fff;
+                }
+            }
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 100px;
+                height: 3px;
+                background-color: #1F1E17;
+                border-radius: 9px;
+                left: 0px;
+                bottom: 0px;
+            }
+        }
+    }
+
+
+    .card-info-company {
+        border-top: 1px solid #1f1e175d;
+
+        .card-info-company-r {
+            & p {
+                font-size: 24px;
+                color: #1F1E17;
+                font-family: r-bold;
+            }
+        }
+    }
+}
+
+/* end bottom-footer */
+
+/* end footer */

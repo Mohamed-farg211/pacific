@@ -1,0 +1,40 @@
+/*start  box */
+.box {
+    /* padding: 79px 0; */
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    position: relative;
+
+
+    .cardImg {
+        width: 20%;
+    }
+
+    &::after {
+        position: absolute;
+        content: "";
+        background-color: #EEC044;
+        width: 5px;
+        height: 150px;
+        z-index: 99;
+        border-radius: 20px;
+        top: 85%;
+        left: 50%;
+    }
+
+    &::before {
+        position: absolute;
+        content: "";
+        background-color: #EEC044;
+        width: 5px;
+        height: 90px;
+        z-index: 99;
+        border-radius: 10px;
+        top: 93%;
+        left: 49%;
+    }
+}
+
+/* end  box */
