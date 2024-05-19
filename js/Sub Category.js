@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const itemDiv = document.createElement("div");
       itemDiv.className = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-6";
       itemDiv.innerHTML = `
-          <a href="##">
+
           <div class="card-box6">
             <div class="cardImg-box6">
               <img src="${item.Product_image}" alt="${item.Product_Name}">
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
               </a>
             </div>
           </div>
-          </a>
+
           `;
 
       itemDiv.addEventListener("click", function () {

@@ -1,9 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("loading-screen").style.display = "flex";
+
   fetch(
     "https://youssifallam13.pythonanywhere.com/api/v1/produts/Main_categoryes/"
   )
     .then((response) => response.json())
     .then((data) => displayMainCategories(data.data.Products));
+
+  document.getElementById("loading-screen").style.display = "none";
+document.getElementById("Maincategories").style.display = "flex";
 
   function displayMainCategories(categories) {
     const container = document.getElementById("Maincategories");
@@ -12,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const categoryDiv = document.createElement("div");
       categoryDiv.className = "col-lg-4 col-md-6 col-sm-6 col-6";
       categoryDiv.innerHTML = `
-          <a href="##">
+          
             <div class="card-box2">
               <div class="img-cardbox2">
                 <img src="${category.Main_image}" alt="${category.Title}" />
@@ -23,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </a>
               </div>
             </div>
-          </a>
+          
           `;
       categoryDiv.addEventListener("click", function () {
         // let t_page = document.getElementById("title");
